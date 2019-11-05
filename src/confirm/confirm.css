@@ -1,0 +1,26 @@
+.confirm{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(00,00,00,0.4)
+}
+.confirmConent{
+    position:absolute;
+    width:200px;
+    height:150px;
+    background:#fff;
+    top:20%;
+    left:calc(50% - 100px);
+    text-align:center;
+}
+.confirmTitle{
+    margin:10px;
+}
+.confirmBody{
+    height:60px;
+}
+.confirmFoot button{
+    margin:0 20px;
+}

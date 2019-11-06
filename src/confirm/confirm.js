@@ -45,7 +45,7 @@ const confirm = function(options){
             promiseStatus : promiseStatus,
             div:div
         }
-        let notification = ReactDOM.render(React.createElement(Confirm, props), div);
+        ReactDOM.render(React.createElement(Confirm, props), div);
      });
 }
 
